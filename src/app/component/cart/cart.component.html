@@ -32,17 +32,24 @@
                             </td>
                       </tr>
                       <tr>
-                        <td colspan="5"></td>
-                        <td>Estimated Delivery Date: {{date}}</td>
-                        <td><button (click)="emptycart()" class="btn btn-danger ec">Empty Cart</button></td>
-                        <td><button routerLink="/catalogue" class="btn btn-primary sp">Shop More</button></td>
-                        <td><button routerLink="/checkout" class="btn btn-success c">Checkout</button></td>
-                        <td><strong style="width:300px">Grand Total: ${{grandTotal}}</strong></td>
+                        
+                        
 
                     </tr>
                         </tbody>
                 </table>
             </div>
+        </div>
+        <div class="confinal">
+            <div>Estimated Delivery Date: {{date}}</div>
+            <div class="buttons">
+                <div><button (click)="emptycart()" class="btn btn-danger ec">Empty Cart</button></div>
+                        <div><button routerLink="/catalogue" class="btn btn-primary sp">Shop More</button></div>
+                        <div><button routerLink="/checkout" class="btn btn-success c">Checkout</button></div>
+            </div>
+                        
+                        <div><strong style="width:300px">Grand Total: ${{grandTotal}}</strong></div>
+
         </div>
     </div>
     

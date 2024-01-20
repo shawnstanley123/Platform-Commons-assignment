@@ -1,3 +1,10 @@
 .container{
     margin-top: 50px;
 }
+.cofinal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    gap:20px;
+}
