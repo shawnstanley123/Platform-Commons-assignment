@@ -1,0 +1,60 @@
+[
+    {
+        "id":1,
+        "name":"Samsung S23",
+        "price": 900.56,
+        "image":"https://i.gadgets360cdn.com/products/large/Samsung-Galaxy-S23-658x800-1675282421.jpg?downsize=*:360",
+        "weight": "168g"
+    },
+    {
+        "id":2,
+        "name":"Iphone XR",
+        "price": 749.99,
+        "image":"https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_black-back_09122018_carousel.jpg.large.jpg",
+        "weight": "156g"
+    },
+    {
+        "id":3,
+        "name":"Google Pixel 6 Pro",
+        "price": 849.99,
+        "image":"https://images-cdn.ubuy.co.in/633ab6a64030d438a40605b8-google-pixel-6-pro-5g-android-phone.jpg",
+        "weight": "150g"
+    },
+    {
+        "id":4,
+        "name":"Huawei Mate 40 Pro",
+        "price": 1299.99,
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/huawei-mate40-pro.jpg",
+        "weight": "296g"
+    },
+    {
+        "id":5,
+        "name":"Oppo Reno Ace 5G+",
+        "price": 1199.99,
+        "image":"https://images.fonearena.com/blog/wp-content/uploads/2019/10/OPPO-Reno-Ace.jpg",
+        "weight": "166g"
+    },
+    {
+        "id":6,
+        "name":"Xiaomi Mi 11 Ultra",
+        "price": 1099.99,
+        "image":"https://cdn.dxomark.com/wp-content/uploads/medias/post-76369/XiaomiMi11Ultra.jpg",
+        "weight": "166g"
+    },
+    {
+        "id":7,
+        "name":"OnePlus 8 Pro",
+        "price": 999.99,
+        "image":"https://www.zdnet.com/a/img/resize/6f1a95bb6b7895b26ec41340bba2d0c5b544e179/2020/04/16/eec13838-b837-46d9-9c01-06be587775f2/oneplus-8-pro-header.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "weight": "166g"
+    },
+    {
+        "id":8,
+        "name":"Samsung Galaxy S21 Ultra 5G",
+        "price": 1199.99,
+        "image":"https://images-cdn.ubuy.co.in/657f3ad5982427536415d953-like-new-samsung-galaxy-s21-5g-sm-g991u1.jpg",
+        "weight": "296g"
+    }
+
+
+]

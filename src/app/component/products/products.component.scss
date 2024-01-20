@@ -1,0 +1,92 @@
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   
+}
+.row{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+    margin: auto;
+}
+.card h5{
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.dname img{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: auto; /* this property ensures the image covers the entire card */
+  width: 100%;
+  height: 230px;
+
+
+}
+.quant{
+    text-align:center;
+    padding: 10px;
+}
+.dname .but{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   margin-bottom:10px;
+   width:80%;
+   border:none;
+   background-color: rgb(78, 78, 207);
+   border-radius: 10px;
+   height:40px;
+   color: white;
+   box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+.card{
+    max-width: 600px;
+    margin:10px;
+
+}
+@media(max-width:1000px){
+    .dname img{
+     
+  height: 150px;
+    }
+    .card{
+        width:38%;
+}
+}
+@media(max-width:1250px){
+    .dname img{
+     
+  height: 120px;
+    }
+    .details{
+        display: flex;
+        justify-content: space-between;
+       gap:60px;
+        align-items: center;
+        margin: auto;
+    }
+ 
+}
+@media(max-width:700px){
+    .dname img{
+        width: 75%;
+  height: 200px;
+    }
+    .card{
+        width:60%;
+    }
+}

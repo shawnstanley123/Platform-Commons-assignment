@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+      <ng-container *ngFor="let product of products1">
+        <div class="card col-md-3">
+          <div class="dname">
+            <h5 style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width: 100ch;">{{ product.name }}</h5>
+    
+            <img [src]="product.image" alt="{{ product.name }} Image" />
+            <div class="details">
+              <p><strong>Price: </strong>${{ product.price }}</p>
+              <p><strong>Weight: </strong>{{ product.weight }}</p>
+            </div>
+    
+            <div class="div" *ngIf="!isProductInCart(product)">
+              <button class="but" (click)="addToCart(product)">Add to Cart</button>
+            </div>
+    
+            <div *ngFor="let item of products">
+              <div class="quant" *ngIf="product.name === item.name">
+                <button (click)="updateDeleteQuantity(item)"><i class="fa fa-minus"></i></button>
+                <input type="text" style="width:30px" value="{{ item.quantity }}" readonly />
+                <button (click)="updateAddQuantity(item)"><i class="fa fa-plus"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+  
