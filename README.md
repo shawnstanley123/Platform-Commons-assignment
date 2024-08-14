@@ -1,5 +1,5 @@
 # Pltcmnass1
-
+This is an assignment which I had done for interview at Platform Commons where I have created a working of Ecommerce app which consists of products and cart system
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
 
 ## Development server
